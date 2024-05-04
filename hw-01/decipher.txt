@@ -1,0 +1,20 @@
+# Assignment 1, Task 4
+# Name: Jakapong Hemla
+# Collaborators: None
+# Time Spent: ~10 mins
+
+
+Program I
+x = False
+y = True
+
+x = True
+y = True
+
+x = False
+y = False
+
+
+Program II
+x = 110
+print(x >= 42 and (x%20)//10 == 1)
