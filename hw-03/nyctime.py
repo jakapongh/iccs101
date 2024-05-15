@@ -1,7 +1,7 @@
 # Assignment 3, Task 6
 # Name: Jakapong Hemla
 # Collaborators: None
-# Time Spent: 5 mins
+# Time Spent: 40 mins
 
 
 # Convert Bangkok time to NY time
