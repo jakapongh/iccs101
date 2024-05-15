@@ -1,0 +1,16 @@
+# Assignment 3, Task 4
+# Name: Jakapong Hemla
+# Collaborators: None
+# Time Spent: 5 mins
+
+a()     a
+b()     b
+c()     ac
+d()     db
+e()     acedb
+
+1. b() d() a() c()
+2. a() c() b() b() a()
+3. d() a() b() c()
+4. IMPOSSIBLE
+5. e() a()
