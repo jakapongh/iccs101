@@ -54,6 +54,18 @@ def readAloud(lst: list[int]) -> list[int]:
     return new_lst
 
 
+# PROFESSORS' OPTIMAL ANSWER
+def readAloud(lst: list[int]) -> list[int]:
+    ans: list[int] = []
+    count: int = 1
+    for i in range(len(lst)-1):
+        if lst[i] == lst[i + 1]:
+            count += 1
+        else:
+            ans.append(count)
+
+
+
 def test_readAloud():
     assert readAloud([]) == []
     assert readAloud([1, 1, 1]) == [3, 1]
