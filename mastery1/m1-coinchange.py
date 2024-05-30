@@ -1,13 +1,5 @@
-def repeating_nums(val: int, n: int):
-    arr = []
-    for i in range(n):
-        arr.append(val)
-
-    return arr
-
-
 def coinChange(v: int) -> list[int]:
-    # give change to reduce amount of coins
+    # Gives
     # dispensed
     # always give out coin with the largest available
     # value first and repeat until full amount is made
@@ -35,6 +27,14 @@ def coinChange(v: int) -> list[int]:
     accumulator += repeating_nums(1, ones)
 
     return accumulator
+
+
+def repeating_nums(val: int, n: int):
+    arr = []
+    for i in range(n):
+        arr.append(val)
+
+    return arr
 
 
 def test_coinChange():
