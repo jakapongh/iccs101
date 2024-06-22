@@ -24,10 +24,11 @@ class Country:
         return self.population / self.area
 
 
-canada = Country('Canada', 34482779, 9984670)
-usa = Country('United States of America', 313914040, 9826675)
-print(canada.is_larger(usa))
-print(canada.population_density())
-print(canada)
-print([canada])
+if __name__ == '__main__':
+    canada = Country('Canada', 34482779, 9984670)
+    usa = Country('United States of America', 313914040, 9826675)
+    print(canada.is_larger(usa))
+    print(canada.population_density())
+    print(canada)
+    print([canada])
 
